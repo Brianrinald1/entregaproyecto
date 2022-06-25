@@ -1,0 +1,240 @@
+body {
+    background-color: #E4E6F2;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+/* ********************************************** navegador *************************************************  */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #1F3473;
+
+}
+
+.logo {
+    display: flex;
+    width: 5%;
+
+}
+
+/* ************************************************** fotos menu principal*********************************************************  */
+.caja {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cont_foto_deportivo p {
+    display: flex;
+
+}
+
+.fotos_menu {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 20% 10%;
+    filter: blur(0.5px);
+    position: relative;
+
+}
+
+.fotovestir {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 20% 10%;
+    filter: blur(0.5px);
+
+}
+
+
+
+.nuestrasmarcas h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1F3473;
+
+
+}
+
+.nuestrasmarcas img {
+    padding: 22px;
+    margin: 30px;
+    background-color: darkgrey;
+}
+
+/* *************************************** contacto ***************************************  */
+.Formulario {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(244, 250, 251);
+    padding-left: 30px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+
+.texto_mensaje {
+    position: relative;
+    left: 29px;
+}
+
+.colocar_telefono {
+    position: relative;
+}
+
+.colocar_email {
+    position: relative;
+    left: 111px;
+}
+
+.mapa {
+    display:flex;
+    width: 430px;
+    flex-direction:initial ;
+    justify-content: center;
+}
+
+/* *************************************** Vestir y calle ***************************************  */
+
+.main-deportivo{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 10px;
+    padding: 10px;
+
+    
+}
+.producto__descripcion{
+   text-align: center;
+
+}
+.boton_vestir{
+    display: inline-block;
+    border-radius: 12px;
+    background-color: #1F3473;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    padding: 6px;
+    width: 20%;
+    margin: 5px;
+}
+
+
+.producto p {
+    color: darkolivegreen ;
+}
+
+
+
+/* *************************************** FOOTER ********************************************** */
+.footer {
+    height:100px;
+    display: flex;
+    background-color: black;
+    padding-top: 4%;
+   
+
+}
+
+.footer p {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 12%;
+    color: #333;
+
+}
+
+.footer .copyright {
+    padding-left: 12%;
+    color: blanchedalmond;
+    display: flex;
+    text-align: center;
+}
+
+.icono_link {
+    padding-left: 1px;
+}
+
+.parrafo_redes {
+    color: white;
+    display: flex;
+    margin-top: 1px;
+
+}
+.iconos_redes{
+    padding: 1px;
+    margin: 2px;
+}
+
+/***************************************** titulos************************************************* */
+.titulo_deportivo {
+    text-align: center;
+    text-decoration: overline solid;
+    font-family: 'Pacifico', cursive;
+}
+.producto__titulo{
+        font-family: 'IBM Plex Mono', monospace;
+        background-color: #000;
+        color:#E4E6F2 ;
+        display: grid;
+        margin: 10px;
+        padding: 2px;
+    
+    }
+.titulomenu{
+    text-align: center;
+    text-decoration: overline solid;
+    font-family: 'Pacifico', cursive;
+}
+
+
+
+
+
+/* aling items : alineacion vertical /*
+/* border _ 1px , solid negro ; */
+/* display felx acomoda cajas una alado de otra */
+/* flex wrap : si la imagen se sale */
+
+/* display : grid ;
+/* grid - template-colums _ 1fr auto 100px ; pone en columnas*/
+/* grid-template-row: 200px 100px ; altura columnas*/
+/*
